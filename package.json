@@ -1,0 +1,12 @@
+{
+  "name": "untitled",
+  "version": "1.0.0",
+  "description": "Recall browser quiz reviewer",
+  "main": "quiz-reviewer/index.js",
+  "scripts": {
+    "start": "node quiz-reviewer/index.js",
+    "test": "node --test quiz-reviewer/tests/*.test.js"
+  },
+  "keywords": [],
+  "type": "commonjs"
+}

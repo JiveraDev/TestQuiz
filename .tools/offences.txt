@@ -1,0 +1,369 @@
+
+
+=== PAGE 1 ===
+CSTC COLLEGE OF SCIENCES TECHNOLOGY AND COMMUNICATION, INC. 
+CSTC College Bldg. Gen. Luna St. Maharlika Hi-way, Pob. 3, Arellano Sub. Sariaya Province of Quezon R4A 
+Registrar’s Office: 042 3290850 / 042 7192818 | CSTC IT Center: 042 7192805 | Atimonan Contact Number: 042 7171420 
+ 
+ 
+ 
+ 
+ 
+Instructional Module in 
+IT 401: INFORMATION ASSURANCE AND SECURITY 2 
+ 
+Cyber Crime Offenses and Penalties 
+ 
+The faster world-wide connectivity has developed numerous online crimes and these increased 
+offences led to the need of laws for protection. In order to keep in stride with the changing generation, the 
+Information Technology Act 2000 has been conceptualized on the United Nations Commissions on 
+International Trade Law (UNCITRAL) Model Law. 
+ 
+The law defines the offenses in a detailed manner along with the penalties for each category of offence. 
+ 
+Offences 
+Cyber offences are the illegitimate actions, which are carried out in a classy manner where either the 
+computer is the tool or target or both. 
+Cyber-crime usually includes the following; 
+ Unauthorized access of the computers 
+ Data diddling 
+ Virus/worms attack 
+ Theft of computer system 
+ Hacking 
+ Denial of attacks 
+ Logic bombs 
+ Trojan attacks 
+ Internet time theft 
+ Web jacking 
+ Email bombing 
+ Salami attacks 
+ Physically damaging computer system. 
+ 
+The offences included in the I.T. Act 2000 are as follows: 
+ Tampering with the computer source documents. 
+ Hacking with computer system. 
+ Publishing of information which is obscene in electronic form. 
+ Power of Controller to give directions. 
+ Directions of Controller to a subscriber to extend facilities to decrypt information. 
+ Protected system. 
+ Penalty for misrepresentation. 
+ Penalty for breach of confidentiality and privacy. 
+ Penalty for publishing Digital Signature Certificate false in certain particulars. 
+ Publication for fraudulent purpose. 
+ Act to apply for offence or contravention committed outside India Confiscation. 
+ Penalties or confiscation not to interfere with other punishments. 
+ Power to investigate offences. 
+ 
+SCHOOL OF INFORMATION TECHNOLOGY 
+
+=== PAGE 2 ===
+CSTC COLLEGE OF SCIENCES TECHNOLOGY AND COMMUNICATION, INC. 
+CSTC College Bldg. Gen. Luna St. Maharlika Hi-way, Pob. 3, Arellano Sub. Sariaya Province of Quezon R4A 
+Registrar’s Office: 042 3290850 / 042 7192818 | CSTC IT Center: 042 7192805 | Atimonan Contact Number: 042 7171420 
+ 
+ 
+ 
+Example: 
+Offences Under The IT Act 2000 
+Section 65. Tampering with computer source documents 
+Whoever knowingly or intentionally conceals, destroys or alters or intentionally or knowingly 
+causes another to conceal, destroy or alter any computer source code used for a computer, computer 
+program, computer system or computer network, when the computer source code is required to be kept or 
+maintained by law for the being time in force, shall be punishable with imprisonment up to three year, or 
+with fine which may extend up to two lakh rupees, or with both. 
+Explanation: 
+For the purpose of this section “computer source code” means the listing of programs, computer commands, 
+design and layout and program analysis of computer resource in any form. 
+Object: 
+The object of the section is to protect the “intellectual property” invested in the computer. It is an attempt 
+to protect the computer source documents (codes) beyond what is available under the Copyright Law. 
+Essential ingredients of the section: 
+ Knowingly or intentionally concealing 
+ Knowingly or intentionally destroying 
+ Knowingly or intentionally altering 
+ Knowingly or intentionally causing others to conceal 
+ Knowingly or intentionally causing another to destroy 
+ Knowingly or intentionally causing another to alter. 
+ 
+This section extends towards the Copyright Act and helps the companies to protect their source code of 
+their programs. 
+Penalties − Section 65 is tried by any magistrate. This is 
+cognizable and non-bailable offence. 
+Penalties − Imprisonment up to 3 years and / or 
+ 
+ 
+
+=== PAGE 3 ===
+CSTC COLLEGE OF SCIENCES TECHNOLOGY AND COMMUNICATION, INC. 
+CSTC College Bldg. Gen. Luna St. Maharlika Hi-way, Pob. 3, Arellano Sub. Sariaya Province of Quezon R4A 
+Registrar’s Office: 042 3290850 / 042 7192818 | CSTC IT Center: 042 7192805 | Atimonan Contact Number: 042 7171420 
+ 
+  
+ 
+Fine − Two lakh rupees. 
+ 
+The following table shows the offence and penalties against all the mentioned sections of the I.T. Act – 
+ 
+Section Offence Punishment Bailability and 
+Congizability 
+65 Tampering with 
+Computer Source Code 
+Imprisonment up to 3 years or 
+fine 
+Offence is Bailable, 
+Cognizable and triable by 
+Court 
+66 Computer Related 
+Offences 
+Imprisonment up to 3 years or 
+fine up 
+Offence is Bailable, 
+Cognizable 
+66-A Sending offensive 
+messages through 
+Communication service, 
+etc... 
+Imprisonment up to 3 years 
+and fine 
+Offence is Bailable, 
+Cognizable and triable by 
+Court 
+66-B Dishonestly receiving 
+stolen computer 
+resource  or 
+communication device 
+Imprisonment up to 3 years 
+and/or fine up to Rs. 1 lakh 
+Offence is Bailable, 
+Cognizable and triable by 
+Court 
+66-C Identity Theft Imprisonment of either 
+description up to 3 years and/or 
+fine 
+Offence is Bailable, 
+Cognizable and triable by 
+Court 
+66-D Cheating by 
+Personation by using 
+computer resource 
+Imprisonment of either 
+description up to 3 years and 
+/or fine 
+Offence is Bailable, 
+Cognizable and triable by 
+Court 
+66-E Violation of Privacy Imprisonment up to 3 years 
+and /or fine 
+Offence is Bailable, 
+Cognizable and triable by 
+Court 
+66-F Cyber Terrorism Imprisonment extend to 
+imprisonment for Life 
+Offence is Non-Bailable, 
+Cognizable and triable by 
+Court of Sessions 
+67 Publishing or 
+transmitting obscene 
+material in electronic form 
+On first Conviction, 
+imprisonment up to 3 years 
+and/or fine 
+On Subsequent Conviction 
+imprisonment up to 5 years 
+and/or fine 
+Offence is Bailable, 
+Cognizable and triable by 
+Court 
+67-A Publishing or 
+transmitting of material 
+containing sexually 
+explicit act, etc... in 
+electronic form 
+On first Conviction 
+imprisonment up to 5 years 
+and/or fine up 
+On Subsequent Conviction 
+imprisonment up to 7 years 
+and/or fine 
+Offence is Non-Bailable, 
+Cognizable and triable by 
+Court 
+67-B Publishing or 
+transmitting of material 
+depicting children in 
+sexually explicit act etc., in 
+electronic form 
+On first Conviction 
+imprisonment of either 
+description up to 5 years and/or 
+fine On Subsequent Conviction 
+imprisonment of either 
+description up to 7 years and/or 
+fine 
+Offence is Non Bailable, 
+Cognizable and triable by 
+Court 
+67-C Intermediary intentionally
+ or 
+Imprisonment up to 3 years 
+and fine 
+Offence is Bailable, 
+Cognizable. 
+
+=== PAGE 4 ===
+CSTC COLLEGE OF SCIENCES TECHNOLOGY AND COMMUNICATION, INC. 
+CSTC College Bldg. Gen. Luna St. Maharlika Hi-way, Pob. 3, Arellano Sub. Sariaya Province of Quezon R4A 
+Registrar’s Office: 042 3290850 / 042 7192818 | CSTC IT Center: 042 7192805 | Atimonan Contact Number: 042 7171420 
+ 
+ 
+ 
+knowingly contravening 
+the directions about 
+Preservation and 
+retention of information 
+  
+68 Failure to comply with the 
+directions given by 
+Controller 
+Imprisonment up to 2 years 
+and/or fine 
+Offence is Bailable, Non- 
+Cognizable. 
+69 Failure to assist the agency 
+referred to in sub section 
+(3) in regard interception
+ or 
+monitoring or decryption 
+of any information through 
+any computer resource 
+Imprisonment up to 7 years 
+and fine 
+Offence is Non-Bailable, 
+Cognizable. 
+69-A Failure of the intermediary 
+to comply with the 
+direction issued for 
+blocking for public access 
+of any information through 
+any computer resource 
+Imprisonment up to 7 years 
+and fine 
+Offence is Non-Bailable, 
+Cognizable. 
+69-B Intermediary who 
+intentionally or 
+knowingly contravenes the 
+provisions of sub- section 
+(2) in regard monitor and 
+collect traffic data or 
+information through any 
+computer resource for 
+cybersecurity 
+Imprisonment up to 3 years 
+and fine 
+Offence is Bailable, 
+Cognizable. 
+70 Any person who secures 
+access or attempts to 
+secure access to the 
+protected system in 
+contravention of provision 
+of Sec. 70 
+Imprisonment of either 
+description up to 10 years and 
+fine 
+Offence is Non-Bailable, 
+Cognizable. 
+70-B Indian Computer 
+Emergency Response 
+Team to serve as national 
+agency for incident 
+response. Any service 
+ provider, 
+intermediaries, data 
+centres, etc., who fails to 
+prove the information 
+called for or comply with 
+the direction issued by the 
+ICERT. 
+Imprisonment up to 1 year 
+and/or fine 
+Offence is Bailable, Non- 
+Cognizable 
+71 Misrepresentation to the 
+Controller to the 
+Certifying Authority 
+Imprisonment up to 2 years 
+and/ or fine 
+Offence is Bailable, Non- 
+Cognizable. 
+
+=== PAGE 5 ===
+CSTC COLLEGE OF SCIENCES TECHNOLOGY AND COMMUNICATION, INC. 
+CSTC College Bldg. Gen. Luna St. Maharlika Hi-way, Pob. 3, Arellano Sub. Sariaya Province of Quezon R4A 
+Registrar’s Office: 042 3290850 / 042 7192818 | CSTC IT Center: 042 7192805 | Atimonan Contact Number: 042 7171420 
+ 
+ 
+72 Breach of 
+Confidentiality and 
+privacy 
+Imprisonment up to 2 years 
+and/or fine 
+Offence is Bailable, Non- 
+Cognizable. 
+72-A Disclosure of 
+information in breach of 
+lawful contract 
+Imprisonment up to 3 years 
+and/or fine 
+Offence is Cognizable, 
+Bailable 
+73 Publishing electronic 
+Signature Certificate false 
+in certain particulars 
+Imprisonment up to 2 years 
+and/or fine 
+Offence is Bailable, Non- 
+Cognizable. 
+74 Publication for 
+fraudulent purpose 
+Imprisonment up to 2 years 
+and/or fine 
+Offence is Bailable, Non- 
+Cognizable. 
+ 
+ 
+Compounding of Offences 
+As per Section 77-A of the I. T. Act, any Court of competent jurisdiction may compound offences, other 
+than offences for which the punishment for life or imprisonment for a term exceeding three years has been 
+provided under the Act. 
+No offence shall be compounded if – 
+ 
+ 
+ The accused is, by reason of his previous conviction, is liable to either enhanced 
+punishment or to the punishment of different kind; OR 
+ Offence affects the socio economic conditions of the country; OR 
+ Offence has been committed against a child below the age of 18 years; OR 
+ Offence has been committed against a woman. 
+ 
+ 
+The person alleged of an offence under this Act may file an application for compounding in the Court. The 
+offence will then be pending for trial and the provisions of Sections 265-B and 265-C of Cr. P.C. shall 
+apply. 
+ 
+REFERENCES 
+ 
+Kisan S. and Rao D.C. (2019). Information Security Lecture Notes. Pande 
+(2017). Introduction to Cyber Security. 
+Tutorialspoint (2015). Risk Management. 
+ 
+Tutorialspoint (2015). Information Security & Cyber Law. 
+ 
+Sadowsky G., Dempsey J., and Greenberg A. (2003). Information Technology Security Handbook
+
+=== PAGE 6 ===
+CSTC COLLEGE OF SCIENCES TECHNOLOGY AND COMMUNICATION, INC. 
+CSTC College Bldg. Gen. Luna St. Maharlika Hi-way, Pob. 3, Arellano Sub. Sariaya Province of Quezon R4A 
+Registrar’s Office: 042 3290850 / 042 7192818 | CSTC IT Center: 042 7192805 | Atimonan Contact Number: 042 7171420 
+ 
+ 
