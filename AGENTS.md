@@ -2,17 +2,17 @@
 
 ## Project Structure & Module Organization
 
-This repository currently contains a minimal Node.js package. `package.json` declares CommonJS modules and an `index.js` entry point, but that file has not been created. There are no source, test, or asset directories and no declared dependencies. `.idea/` contains IDE configuration.
-
-Keep the entry point at the repository root. As implementation grows, place reusable modules in `src/`, automated tests in `tests/`, and static resources in `assets/`. Create these directories only when needed.
+The root Node.js package runs the static reviewer in `quiz-reviewer/`. The server entry point is `quiz-reviewer/index.js`. UI files and the generated question bank live in `quiz-reviewer/dist/`; editable course content and the preserved module transcript live in `quiz-reviewer/src/`. Automated tests are in `quiz-reviewer/tests/`, build scripts in `quiz-reviewer/scripts/`, and the coverage report in `quiz-reviewer/docs/`. `.idea/` contains IDE configuration.
 
 ## Build, Test, and Development Commands
 
-- `npm run`: list the scripts defined in `package.json`.
-- `npm test`: run the current placeholder, which prints "Error: no test specified" and exits with status 1. This is expected until a test runner is configured.
-- `node index.js`: run the application after the declared entry point has been implemented.
+- `npm start`: serve the reviewer at http://localhost:4173.
+- `npm test`: run the Node.js built-in tests for coverage, grading, timers and the server.
+- `npm run build`: regenerate the question bank and coverage report, then rebuild `quiz-reviewer/IT401-Reviewer.html`.
+- `npm run build:standalone`: equivalent to `npm run build`.
+- `npm run build:questions`: regenerate just the question bank and coverage report.
 
-No build, development-server, or lint commands are configured. Add appropriate scripts to `package.json` when introducing tooling, and document them here.
+The same commands work from the root or `quiz-reviewer/`. No dependency installation or lint command is configured. Edit `quiz-reviewer/src/offences-content.js` for question content and run the build before distributing. After final validation, recreate the Hostinger ZIP from `quiz-reviewer/dist/*`; deployment instructions are in `DEPLOYMENT.md`.
 
 ## Coding Style & Naming Conventions
 
@@ -22,7 +22,7 @@ No formatter or linter is configured. Keep changes consistent and avoid unrelate
 
 ## Testing Guidelines
 
-There is no testing framework or coverage requirement yet. When adding tests, use `tests/*.test.js`, cover observable behavior and error cases, and replace the placeholder `test` script with the selected runner. Document any required setup. Do not treat the existing `npm test` failure as a regression or claim it verifies functionality.
+Use Node's built-in test runner with `quiz-reviewer/tests/*.test.js`. Cover observable behavior and error cases. Content changes must preserve module fidelity, all 23 offence-table rows, all five requested formats, and all answer keys. Never substitute current legal wording silently for historical course answers. Real-world examples need primary-source references and must distinguish allegations, convictions and classroom analogies.
 
 ## Commit & Pull Request Guidelines
 

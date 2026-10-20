@@ -1,0 +1,2419 @@
+{
+  "version": 1,
+  "title": "IT 401 Midterm",
+  "topics": [
+    {
+      "id": "network",
+      "title": "Network security",
+      "subtitle": "Devices, firewalls & protection",
+      "color": "blue",
+      "mark": "01"
+    },
+    {
+      "id": "signatures",
+      "title": "Digital signatures",
+      "subtitle": "Trust, identity & authentication",
+      "color": "lavender",
+      "mark": "02"
+    },
+    {
+      "id": "risk",
+      "title": "Risk management",
+      "subtitle": "Identify, assess & respond",
+      "color": "peach",
+      "mark": "03"
+    },
+    {
+      "id": "testing",
+      "title": "Security testing",
+      "subtitle": "Principles & test techniques",
+      "color": "green",
+      "mark": "04"
+    },
+    {
+      "id": "offences",
+      "title": "Cybercrime offences",
+      "subtitle": "Sections, penalties & scenarios",
+      "color": "sand",
+      "mark": "05"
+    }
+  ],
+  "types": {
+    "identification": "Identification",
+    "multiple": "Multiple choice",
+    "boolean": "True or false",
+    "enumeration": "Enumeration",
+    "matching": "Matching",
+    "situational": "Situational"
+  },
+  "questions": [
+    {
+      "id": "Q001",
+      "type": "identification",
+      "topic": "network",
+      "prompt": "What term means protecting a network from unauthorized access and security risks?",
+      "answer": "Network security",
+      "aliases": [
+        "Network security",
+        "network protection"
+      ],
+      "explanation": "Network administrators adopt preventive measures to protect networks against access without permission and other threats.",
+      "source": {
+        "doc": "lesson",
+        "page": "3"
+      }
+    },
+    {
+      "id": "Q002",
+      "type": "identification",
+      "topic": "network",
+      "prompt": "Name the system that regulates traffic between a trusted internal network and the internet.",
+      "answer": "Firewall",
+      "aliases": [
+        "Firewall",
+        "a firewall",
+        "network firewall"
+      ],
+      "explanation": "A firewall controls traffic according to configured rules or protocols. It can be software or a hardware appliance.",
+      "source": {
+        "doc": "lesson",
+        "page": "6"
+      }
+    },
+    {
+      "id": "Q003",
+      "type": "identification",
+      "topic": "network",
+      "prompt": "What tool detects and removes malicious software, including viruses, worms, and Trojan horses?",
+      "answer": "Antivirus",
+      "aliases": [
+        "Antivirus",
+        "antivirus software",
+        "anti virus",
+        "antimalware",
+        "anti malware"
+      ],
+      "explanation": "Modern antivirus products can detect more than viruses, including spyware, adware, and keyloggers.",
+      "source": {
+        "doc": "lesson",
+        "page": "8"
+      }
+    },
+    {
+      "id": "Q004",
+      "type": "identification",
+      "topic": "network",
+      "prompt": "What security function screens emails and web pages and blocks content prohibited by an organization?",
+      "answer": "Content filtering",
+      "aliases": [
+        "Content filtering",
+        "content filter",
+        "content filtering devices"
+      ],
+      "explanation": "Content filters check material against policies and may display “Access Denied” when content is blocked.",
+      "source": {
+        "doc": "lesson",
+        "page": "9–10"
+      }
+    },
+    {
+      "id": "Q005",
+      "type": "identification",
+      "topic": "network",
+      "prompt": "Which device category identifies and reports unwanted traffic instead of directly blocking it?",
+      "answer": "Passive devices",
+      "aliases": [
+        "Passive devices",
+        "passive",
+        "passive device",
+        "passive security devices"
+      ],
+      "explanation": "The device-classification slide lists intrusion detection appliances as examples of passive devices.",
+      "source": {
+        "doc": "lesson",
+        "page": "4"
+      }
+    },
+    {
+      "id": "Q006",
+      "type": "identification",
+      "topic": "network",
+      "prompt": "Which device category scans networks to identify potential security problems?",
+      "answer": "Preventative devices",
+      "aliases": [
+        "Preventative devices",
+        "preventive devices",
+        "preventative",
+        "preventive",
+        "preventative security devices"
+      ],
+      "explanation": "The lesson gives penetration-testing and vulnerability-assessment appliances as examples.",
+      "source": {
+        "doc": "lesson",
+        "page": "5"
+      }
+    },
+    {
+      "id": "Q007",
+      "type": "identification",
+      "topic": "network",
+      "prompt": "Name the all-in-one approach that combines a firewall, content filtering, and other security functions. Its acronym is accepted.",
+      "answer": "Unified threat management",
+      "aliases": [
+        "Unified threat management",
+        "UTM"
+      ],
+      "explanation": "UTM combines several security functions in a single solution. The lesson also mentions web caching.",
+      "source": {
+        "doc": "lesson",
+        "page": "5"
+      }
+    },
+    {
+      "id": "Q008",
+      "type": "identification",
+      "topic": "signatures",
+      "prompt": "What technique validates a digital document’s origin and helps establish that a known sender sent it?",
+      "answer": "Digital signature",
+      "aliases": [
+        "Digital signature",
+        "digital signatures"
+      ],
+      "explanation": "Digital signatures support verification of a message’s legitimacy and evidence of its sender.",
+      "source": {
+        "doc": "lesson",
+        "page": "12"
+      }
+    },
+    {
+      "id": "Q009",
+      "type": "identification",
+      "topic": "signatures",
+      "prompt": "Which principle helps prevent a sender from denying that they sent a message?",
+      "answer": "Non-repudiation",
+      "aliases": [
+        "Non-repudiation",
+        "nonrepudiation",
+        "non repudiation"
+      ],
+      "explanation": "The signature discussion illustrates non-repudiation through evidence of the sender’s action.",
+      "source": {
+        "doc": "lesson",
+        "page": "12; 36"
+      }
+    },
+    {
+      "id": "Q010",
+      "type": "identification",
+      "topic": "signatures",
+      "prompt": "According to the lesson, what broader signing term is used by the amended I.T. Act 2008?",
+      "answer": "Electronic signature",
+      "aliases": [
+        "Electronic signature",
+        "electronic signatures",
+        "e signature"
+      ],
+      "explanation": "The lesson describes electronic signature as broader than the older term digital signature.",
+      "source": {
+        "doc": "lesson",
+        "page": "13"
+      }
+    },
+    {
+      "id": "Q011",
+      "type": "identification",
+      "topic": "signatures",
+      "prompt": "Passwords and PINs are examples of which factor: something you know, have, or are?",
+      "answer": "Something you know",
+      "aliases": [
+        "Something you know",
+        "knowledge",
+        "knowledge based",
+        "knowledge factor",
+        "know"
+      ],
+      "explanation": "These methods rely on information known by the user.",
+      "source": {
+        "doc": "lesson",
+        "page": "15"
+      }
+    },
+    {
+      "id": "Q012",
+      "type": "identification",
+      "topic": "signatures",
+      "prompt": "A magnetic access card is an example of which factor: something you know, have, or are?",
+      "answer": "Something you have",
+      "aliases": [
+        "Something you have",
+        "possession",
+        "possession based",
+        "possession factor",
+        "have"
+      ],
+      "explanation": "The factor is possession of an object containing a code or other authentication information.",
+      "source": {
+        "doc": "lesson",
+        "page": "15"
+      }
+    },
+    {
+      "id": "Q013",
+      "type": "identification",
+      "topic": "risk",
+      "prompt": "What first stage discovers potential project risks through brainstorming or stakeholder discussions?",
+      "answer": "Risk identification",
+      "aliases": [
+        "Risk identification",
+        "identification",
+        "identify risks"
+      ],
+      "explanation": "Identification discovers possible risks before assessment and response planning.",
+      "source": {
+        "doc": "lesson",
+        "page": "25"
+      }
+    },
+    {
+      "id": "Q014",
+      "type": "identification",
+      "topic": "risk",
+      "prompt": "What process step combines risk entries and removes duplicates?",
+      "answer": "Consolidation",
+      "aliases": [
+        "Consolidation",
+        "risk consolidation"
+      ],
+      "explanation": "Consolidation produces a comprehensive risk list from the team’s contributions.",
+      "source": {
+        "doc": "lesson",
+        "page": "32"
+      }
+    },
+    {
+      "id": "Q015",
+      "type": "identification",
+      "topic": "risk",
+      "prompt": "What shared document records project risks and their mitigation strategies?",
+      "answer": "Risk register",
+      "aliases": [
+        "Risk register",
+        "risk registry",
+        "register of risks"
+      ],
+      "explanation": "The lesson says the register should be accessible to all members of the project team.",
+      "source": {
+        "doc": "lesson",
+        "page": "34"
+      }
+    },
+    {
+      "id": "Q016",
+      "type": "identification",
+      "topic": "risk",
+      "prompt": "What term describes warning signs that a risk is likely to occur?",
+      "answer": "Risk triggers",
+      "aliases": [
+        "Risk triggers",
+        "risk trigger",
+        "triggers",
+        "trigger"
+      ],
+      "explanation": "Triggers help a team recognize when a risk is becoming likely and prepare its response.",
+      "source": {
+        "doc": "lesson",
+        "page": "33"
+      }
+    },
+    {
+      "id": "Q017",
+      "type": "identification",
+      "topic": "risk",
+      "prompt": "What response shifts risk to another party, such as through insurance or outsourcing?",
+      "answer": "Risk transfer",
+      "aliases": [
+        "Risk transfer",
+        "transfer",
+        "transference",
+        "risk transference"
+      ],
+      "explanation": "Transfer shifts responsibility or financial exposure; it does not necessarily eliminate the underlying event.",
+      "source": {
+        "doc": "lesson",
+        "page": "30"
+      }
+    },
+    {
+      "id": "Q018",
+      "type": "identification",
+      "topic": "risk",
+      "prompt": "What ongoing stage tracks new risks and reassesses existing ones throughout a project?",
+      "answer": "Risk monitoring and control",
+      "aliases": [
+        "Risk monitoring and control",
+        "monitoring and control",
+        "risk monitoring",
+        "monitoring"
+      ],
+      "explanation": "Monitoring and control continues across the project lifecycle.",
+      "source": {
+        "doc": "lesson",
+        "page": "31"
+      }
+    },
+    {
+      "id": "Q019",
+      "type": "identification",
+      "topic": "testing",
+      "prompt": "Which security principle checks that a claimed identity is genuine?",
+      "answer": "Authentication",
+      "aliases": [
+        "Authentication",
+        "identity authentication"
+      ],
+      "explanation": "Authentication verifies identity. Authorization separately determines the actions that identity may perform.",
+      "source": {
+        "doc": "lesson",
+        "page": "36"
+      }
+    },
+    {
+      "id": "Q020",
+      "type": "identification",
+      "topic": "testing",
+      "prompt": "Which security principle protects information from unauthorized disclosure?",
+      "answer": "Confidentiality",
+      "aliases": [
+        "Confidentiality",
+        "data confidentiality"
+      ],
+      "explanation": "Confidentiality concerns who may view information.",
+      "source": {
+        "doc": "lesson",
+        "page": "36"
+      }
+    },
+    {
+      "id": "Q021",
+      "type": "identification",
+      "topic": "testing",
+      "prompt": "Which security principle protects information from unauthorized alteration?",
+      "answer": "Integrity",
+      "aliases": [
+        "Integrity",
+        "data integrity"
+      ],
+      "explanation": "Integrity concerns maintaining accurate information and protecting it against unauthorized changes.",
+      "source": {
+        "doc": "lesson",
+        "page": "36"
+      }
+    },
+    {
+      "id": "Q022",
+      "type": "identification",
+      "topic": "offences",
+      "prompt": "According to the module, which section covers tampering with computer source documents? Give the section number.",
+      "answer": "Section 65",
+      "aliases": [
+        "Section 65",
+        "65",
+        "sec 65",
+        "s65"
+      ],
+      "explanation": "Section 65 concerns knowing or intentional concealment, destruction, or alteration of source code legally required to be kept.",
+      "source": {
+        "doc": "offences",
+        "page": "2–3"
+      }
+    },
+    {
+      "id": "Q023",
+      "type": "identification",
+      "topic": "offences",
+      "prompt": "Which section has the exact label “Identity Theft” in the module’s table?",
+      "answer": "Section 66-C",
+      "aliases": [
+        "Section 66-C",
+        "66c",
+        "66 c",
+        "section 66c",
+        "sec 66c"
+      ],
+      "explanation": "The historical table maps identity theft to 66-C and lists up to three years and/or a fine.",
+      "source": {
+        "doc": "offences",
+        "page": "3"
+      }
+    },
+    {
+      "id": "Q024",
+      "type": "identification",
+      "topic": "offences",
+      "prompt": "Which offence in the module’s table carries possible life imprisonment?",
+      "answer": "Cyber terrorism",
+      "aliases": [
+        "Cyber terrorism",
+        "cyberterrorism",
+        "66f",
+        "66 f",
+        "section 66f"
+      ],
+      "explanation": "The table lists cyber terrorism under 66-F, with imprisonment that may extend to life.",
+      "source": {
+        "doc": "offences",
+        "page": "3"
+      }
+    },
+    {
+      "id": "Q025",
+      "type": "multiple",
+      "topic": "network",
+      "prompt": "Which is an active security device in the lesson?",
+      "options": [
+        "A firewall",
+        "A passive traffic detector",
+        "A risk register",
+        "A scanned signature"
+      ],
+      "answer": 0,
+      "explanation": "Active devices block unwanted or surplus traffic. Firewalls, antivirus scanners, and content filters are listed examples.",
+      "source": {
+        "doc": "lesson",
+        "page": "4"
+      }
+    },
+    {
+      "id": "Q026",
+      "type": "multiple",
+      "topic": "network",
+      "prompt": "Which distinction between firewalls is correct?",
+      "options": [
+        "Hardware firewalls are appliances; software firewalls run as programs.",
+        "Only software firewalls regulate traffic.",
+        "Hardware firewalls are memorized passwords.",
+        "Software firewalls must be separate physical routers."
+      ],
+      "answer": 0,
+      "explanation": "Hardware firewalls can be standalone products or part of broadband routers. Software firewalls run on a computer.",
+      "source": {
+        "doc": "lesson",
+        "page": "6–7"
+      }
+    },
+    {
+      "id": "Q027",
+      "type": "multiple",
+      "topic": "network",
+      "prompt": "Which sequence describes the intrusion detection/prevention functions listed in the lesson?",
+      "options": [
+        "Monitor, log, take action, and report",
+        "Sign, print, scan, and archive",
+        "Budget, recruit, insure, and outsource",
+        "Purchase, cache, type, and delete"
+      ],
+      "answer": 0,
+      "explanation": "The slide groups detection and prevention functions. Detection-only appliances are separately described as passive on page 4.",
+      "source": {
+        "doc": "lesson",
+        "page": "11"
+      }
+    },
+    {
+      "id": "Q028",
+      "type": "multiple",
+      "topic": "network",
+      "prompt": "Which filtering category is most directly used to screen spam messages?",
+      "options": [
+        "Email filtering",
+        "Web caching",
+        "Risk qualification",
+        "Digital signing"
+      ],
+      "answer": 0,
+      "explanation": "Email filtering screens messages, including spam. Web filtering screens websites or pages.",
+      "source": {
+        "doc": "lesson",
+        "page": "10"
+      }
+    },
+    {
+      "id": "Q029",
+      "type": "multiple",
+      "topic": "signatures",
+      "prompt": "A fingerprint reader authenticates someone through which category?",
+      "options": [
+        "A physical feature of the user",
+        "A memorized fact",
+        "Possession of a card",
+        "The project’s budget"
+      ],
+      "answer": 0,
+      "explanation": "Biometrics use physical features, commonly described as something you are.",
+      "source": {
+        "doc": "lesson",
+        "page": "15"
+      }
+    },
+    {
+      "id": "Q030",
+      "type": "multiple",
+      "topic": "signatures",
+      "prompt": "How does the lesson relate electronic and digital signatures?",
+      "options": [
+        "Electronic signature is the broader concept.",
+        "Electronic signature is always narrower.",
+        "They are unrelated to records.",
+        "Digital signatures are only handwritten marks."
+      ],
+      "answer": 0,
+      "explanation": "The lesson contrasts the older digital-signature term with the broader electronic-signature concept.",
+      "source": {
+        "doc": "lesson",
+        "page": "13"
+      }
+    },
+    {
+      "id": "Q031",
+      "type": "multiple",
+      "topic": "signatures",
+      "prompt": "Which appears in the lesson’s signature or authentication technology list?",
+      "options": [
+        "A clickable “I Agree” box",
+        "A project cost overrun",
+        "A duplicate risk entry",
+        "A physically damaged computer case"
+      ],
+      "answer": 0,
+      "explanation": "The list includes clickable acceptance along with PKI signatures, biometrics, PINs, passwords, scanned handwriting, and digital pens.",
+      "source": {
+        "doc": "lesson",
+        "page": "17"
+      }
+    },
+    {
+      "id": "Q032",
+      "type": "multiple",
+      "topic": "risk",
+      "prompt": "A supplier may deliver essential equipment late. Which category applies?",
+      "options": [
+        "Supplier risk",
+        "Resource risk",
+        "Budget risk",
+        "Signature risk"
+      ],
+      "answer": 0,
+      "explanation": "Supplier risk concerns suppliers failing to meet delivery timelines.",
+      "source": {
+        "doc": "lesson",
+        "page": "26"
+      }
+    },
+    {
+      "id": "Q033",
+      "type": "multiple",
+      "topic": "risk",
+      "prompt": "Which two factors are evaluated in the risk matrix?",
+      "options": [
+        "Probability and impact",
+        "Font size and page count",
+        "Username and device color",
+        "File name and extension"
+      ],
+      "answer": 0,
+      "explanation": "Risk qualification/quantification evaluates likelihood of occurrence and potential impact. The matrix labels risks low, medium, high, or critical.",
+      "source": {
+        "doc": "lesson",
+        "page": "27–28"
+      }
+    },
+    {
+      "id": "Q034",
+      "type": "multiple",
+      "topic": "risk",
+      "prompt": "Which response acknowledges a risk and proceeds without significant extra action?",
+      "options": [
+        "Risk acceptance",
+        "Risk avoidance",
+        "Risk transfer",
+        "Consolidation"
+      ],
+      "answer": 0,
+      "explanation": "Acceptance deliberately acknowledges the risk while choosing to proceed.",
+      "source": {
+        "doc": "lesson",
+        "page": "30"
+      }
+    },
+    {
+      "id": "Q035",
+      "type": "multiple",
+      "topic": "risk",
+      "prompt": "Which is a positive project risk or opportunity?",
+      "options": [
+        "A new approach may increase efficiency.",
+        "A supplier may miss a delivery.",
+        "A key employee may leave.",
+        "Costs may exceed the budget."
+      ],
+      "answer": 0,
+      "explanation": "The lesson describes positive risks as opportunities, including improvements in efficiency and customer satisfaction.",
+      "source": {
+        "doc": "lesson",
+        "page": "35"
+      }
+    },
+    {
+      "id": "Q036",
+      "type": "multiple",
+      "topic": "testing",
+      "prompt": "Which principle checks whether a user is permitted to perform a specific action?",
+      "options": [
+        "Authorization",
+        "Authentication",
+        "Availability",
+        "Non-repudiation"
+      ],
+      "answer": 0,
+      "explanation": "Authorization concerns permissions; authentication concerns identity.",
+      "source": {
+        "doc": "lesson",
+        "page": "36"
+      }
+    },
+    {
+      "id": "Q037",
+      "type": "multiple",
+      "topic": "testing",
+      "prompt": "Which listed technique is abbreviated XSS?",
+      "options": [
+        "Cross-Site Scripting",
+        "Cross-Site Request Forgery",
+        "Risk consolidation",
+        "Public key infrastructure"
+      ],
+      "answer": 0,
+      "explanation": "XSS is Cross-Site Scripting. CSRF means Cross-Site Request Forgery.",
+      "source": {
+        "doc": "lesson",
+        "page": "37"
+      }
+    },
+    {
+      "id": "Q038",
+      "type": "multiple",
+      "topic": "offences",
+      "prompt": "Which section concerns dishonestly receiving a stolen computer resource or communication device?",
+      "options": [
+        "66-B",
+        "66-C",
+        "70",
+        "74"
+      ],
+      "answer": 0,
+      "explanation": "The module lists 66-B, with up to three years and/or a fine up to one lakh rupees.",
+      "source": {
+        "doc": "offences",
+        "page": "3"
+      }
+    },
+    {
+      "id": "Q039",
+      "type": "multiple",
+      "topic": "offences",
+      "prompt": "Which section is labelled “Violation of Privacy” in the module?",
+      "options": [
+        "66-E",
+        "66-F",
+        "67-C",
+        "71"
+      ],
+      "answer": 0,
+      "explanation": "The table lists 66-E, with up to three years and/or a fine.",
+      "source": {
+        "doc": "offences",
+        "page": "3"
+      }
+    },
+    {
+      "id": "Q040",
+      "type": "multiple",
+      "topic": "offences",
+      "prompt": "According to the module, Section 67 concerns which conduct?",
+      "options": [
+        "Publishing or transmitting obscene electronic material",
+        "Updating a supplier schedule",
+        "Consolidating project risks",
+        "Creating a source-code backup"
+      ],
+      "answer": 0,
+      "explanation": "The module lists up to three years on first conviction and five on subsequent conviction, with fines.",
+      "source": {
+        "doc": "offences",
+        "page": "3"
+      }
+    },
+    {
+      "id": "Q041",
+      "type": "multiple",
+      "topic": "offences",
+      "prompt": "What maximum prison terms does the module list for 67-A on first and subsequent conviction?",
+      "options": [
+        "Five years, then seven years",
+        "One year, then two years",
+        "Two years, then three years",
+        "Ten years, then life in every case"
+      ],
+      "answer": 0,
+      "explanation": "The entry concerns electronic material containing sexually explicit acts. These figures are from the supplied handout.",
+      "source": {
+        "doc": "offences",
+        "page": "3"
+      }
+    },
+    {
+      "id": "Q042",
+      "type": "multiple",
+      "topic": "offences",
+      "prompt": "Which section concerns electronic material depicting children in sexually explicit acts in the table?",
+      "options": [
+        "67-B",
+        "67-C",
+        "68",
+        "69-B"
+      ],
+      "answer": 0,
+      "explanation": "The module lists 67-B, with up to five years on first conviction and seven on subsequent conviction, with fines.",
+      "source": {
+        "doc": "offences",
+        "page": "3"
+      }
+    },
+    {
+      "id": "Q043",
+      "type": "multiple",
+      "topic": "offences",
+      "prompt": "What maximum prison term is listed for unauthorized access or attempted access to a protected system under Section 70?",
+      "options": [
+        "Ten years",
+        "One year",
+        "Two years",
+        "Three months"
+      ],
+      "answer": 0,
+      "explanation": "The handout lists up to ten years and a fine, and calls the offence non-bailable and cognizable.",
+      "source": {
+        "doc": "offences",
+        "page": "4"
+      }
+    },
+    {
+      "id": "Q044",
+      "type": "multiple",
+      "topic": "offences",
+      "prompt": "Which section is cited for compounding of offences in the module?",
+      "options": [
+        "77-A",
+        "65",
+        "66-C",
+        "73"
+      ],
+      "answer": 0,
+      "explanation": "The discussion cites 77-A, explains exclusions, and describes an application to the competent court, with Cr.P.C. 265-B and 265-C applying.",
+      "source": {
+        "doc": "offences",
+        "page": "5"
+      }
+    },
+    {
+      "id": "Q045",
+      "type": "boolean",
+      "topic": "network",
+      "prompt": "A firewall can create a barrier between a trusted internal network and the internet.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "explanation": "Regulating traffic across this barrier is a core function described in the lesson. Some hardware appliances also provide DHCP services.",
+      "source": {
+        "doc": "lesson",
+        "page": "6"
+      }
+    },
+    {
+      "id": "Q046",
+      "type": "boolean",
+      "topic": "network",
+      "prompt": "The device-classification slide defines passive devices as directly blocking unwanted traffic.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 1,
+      "explanation": "Blocking is assigned to active devices. Passive devices identify and report.",
+      "source": {
+        "doc": "lesson",
+        "page": "4"
+      }
+    },
+    {
+      "id": "Q047",
+      "type": "boolean",
+      "topic": "signatures",
+      "prompt": "The lesson describes electronic signature as narrower than digital signature.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 1,
+      "explanation": "Electronic signature is described as the broader concept. The slide also cites Section 3 for verification of electronic records by digital signature.",
+      "source": {
+        "doc": "lesson",
+        "page": "13"
+      }
+    },
+    {
+      "id": "Q048",
+      "type": "boolean",
+      "topic": "signatures",
+      "prompt": "Scanned handwriting is the only signature technology listed in the lesson.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 1,
+      "explanation": "It is one of seven technologies. Other examples include digital pens, PKI signatures, biometrics, PINs, passwords, and clickable acceptance.",
+      "source": {
+        "doc": "lesson",
+        "page": "17"
+      }
+    },
+    {
+      "id": "Q049",
+      "type": "boolean",
+      "topic": "risk",
+      "prompt": "Every project risk is necessarily a negative threat.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 1,
+      "explanation": "The lesson includes both threats and positive opportunities.",
+      "source": {
+        "doc": "lesson",
+        "page": "35"
+      }
+    },
+    {
+      "id": "Q050",
+      "type": "boolean",
+      "topic": "risk",
+      "prompt": "Risk monitoring should happen only at the end of a project.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 1,
+      "explanation": "Risks must be monitored throughout the project lifecycle.",
+      "source": {
+        "doc": "lesson",
+        "page": "31"
+      }
+    },
+    {
+      "id": "Q051",
+      "type": "boolean",
+      "topic": "risk",
+      "prompt": "The risk register should be accessible only to the project manager.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 1,
+      "explanation": "The lesson says all project team members should be able to access it.",
+      "source": {
+        "doc": "lesson",
+        "page": "34"
+      }
+    },
+    {
+      "id": "Q052",
+      "type": "boolean",
+      "topic": "testing",
+      "prompt": "Availability is one of the six security-testing principles in the lesson.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "explanation": "The six are confidentiality, integrity, authentication, authorization, availability, and non-repudiation.",
+      "source": {
+        "doc": "lesson",
+        "page": "36"
+      }
+    },
+    {
+      "id": "Q053",
+      "type": "boolean",
+      "topic": "offences",
+      "prompt": "As a statement about its contents, the supplied historical handout includes a 66-A entry for offensive messages.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 0,
+      "explanation": "This tests what the handout contains. Its historical 66-A entry is not presented as a statement of current enforceable law.",
+      "source": {
+        "doc": "offences",
+        "page": "3"
+      }
+    },
+    {
+      "id": "Q054",
+      "type": "boolean",
+      "topic": "offences",
+      "prompt": "The module permits compounding an offence committed against a child below 18.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": 1,
+      "explanation": "Offences against children below 18 are among its explicit exclusions.",
+      "source": {
+        "doc": "offences",
+        "page": "5"
+      }
+    },
+    {
+      "id": "Q055",
+      "type": "enumeration",
+      "topic": "network",
+      "prompt": "List the FOUR categories of network security devices. Order does not matter.",
+      "items": [
+        {
+          "label": "Active devices",
+          "aliases": [
+            "Active devices",
+            "active"
+          ]
+        },
+        {
+          "label": "Passive devices",
+          "aliases": [
+            "Passive devices",
+            "passive"
+          ]
+        },
+        {
+          "label": "Preventative devices",
+          "aliases": [
+            "Preventative devices",
+            "preventive devices",
+            "preventative",
+            "preventive"
+          ]
+        },
+        {
+          "label": "Unified threat management",
+          "aliases": [
+            "Unified threat management",
+            "UTM"
+          ]
+        }
+      ],
+      "explanation": "The categories are active, passive, preventative, and UTM.",
+      "source": {
+        "doc": "lesson",
+        "page": "4–5"
+      }
+    },
+    {
+      "id": "Q056",
+      "type": "enumeration",
+      "topic": "network",
+      "prompt": "List the THREE examples of active security devices on the classification slide.",
+      "items": [
+        {
+          "label": "Firewalls",
+          "aliases": [
+            "Firewalls",
+            "firewall"
+          ]
+        },
+        {
+          "label": "Antivirus scanning devices",
+          "aliases": [
+            "Antivirus scanning devices",
+            "antivirus",
+            "antivirus scanners",
+            "antivirus scanning"
+          ]
+        },
+        {
+          "label": "Content filtering devices",
+          "aliases": [
+            "Content filtering devices",
+            "content filters",
+            "content filtering"
+          ]
+        }
+      ],
+      "explanation": "These are the three examples explicitly listed as active devices.",
+      "source": {
+        "doc": "lesson",
+        "page": "4"
+      }
+    },
+    {
+      "id": "Q057",
+      "type": "enumeration",
+      "topic": "signatures",
+      "prompt": "List the THREE authentication-factor categories using “something you …” wording.",
+      "items": [
+        {
+          "label": "Something you know",
+          "aliases": [
+            "Something you know",
+            "knowledge",
+            "knowledge based"
+          ]
+        },
+        {
+          "label": "Something you are",
+          "aliases": [
+            "Something you are",
+            "physical features",
+            "biometrics",
+            "inherence"
+          ]
+        },
+        {
+          "label": "Something you have",
+          "aliases": [
+            "Something you have",
+            "possession",
+            "possession based"
+          ]
+        }
+      ],
+      "explanation": "The slide classifies factors by knowledge, physical features, and possession.",
+      "source": {
+        "doc": "lesson",
+        "page": "15"
+      }
+    },
+    {
+      "id": "Q058",
+      "type": "enumeration",
+      "topic": "signatures",
+      "prompt": "List ALL SEVEN signature or authentication technologies shown in the lesson. Enter one per box.",
+      "items": [
+        {
+          "label": "Digital signature within PKI",
+          "aliases": [
+            "Digital signature within PKI",
+            "digital signature",
+            "PKI",
+            "public key infrastructure"
+          ]
+        },
+        {
+          "label": "Biometric device",
+          "aliases": [
+            "Biometric device",
+            "biometrics",
+            "biometric devices"
+          ]
+        },
+        {
+          "label": "PINs",
+          "aliases": [
+            "PINs",
+            "PIN",
+            "personal identification numbers"
+          ]
+        },
+        {
+          "label": "Passwords",
+          "aliases": [
+            "Passwords",
+            "password"
+          ]
+        },
+        {
+          "label": "Scanned handwritten signature",
+          "aliases": [
+            "Scanned handwritten signature",
+            "scanned signature",
+            "scanned handwriting"
+          ]
+        },
+        {
+          "label": "Signature by digital pen",
+          "aliases": [
+            "Signature by digital pen",
+            "digital pen",
+            "digital pen signature"
+          ]
+        },
+        {
+          "label": "Clickable acceptance boxes",
+          "aliases": [
+            "Clickable acceptance boxes",
+            "I agree",
+            "I accept",
+            "OK",
+            "click boxes",
+            "clickable boxes"
+          ]
+        }
+      ],
+      "explanation": "This is the full seven-item list on the technology slide.",
+      "source": {
+        "doc": "lesson",
+        "page": "17"
+      }
+    },
+    {
+      "id": "Q059",
+      "type": "enumeration",
+      "topic": "risk",
+      "prompt": "List the FOUR main project risk-management stages, in any order.",
+      "items": [
+        {
+          "label": "Risk identification",
+          "aliases": [
+            "Risk identification",
+            "identification"
+          ]
+        },
+        {
+          "label": "Risk qualification",
+          "aliases": [
+            "Risk qualification",
+            "risk quantification",
+            "qualification",
+            "quantification"
+          ]
+        },
+        {
+          "label": "Risk response",
+          "aliases": [
+            "Risk response",
+            "response"
+          ]
+        },
+        {
+          "label": "Risk monitoring and control",
+          "aliases": [
+            "Risk monitoring and control",
+            "monitoring and control",
+            "risk monitoring"
+          ]
+        }
+      ],
+      "explanation": "The overview uses “qualification”; the explanation slide also uses “quantification.” Both are accepted.",
+      "source": {
+        "doc": "lesson",
+        "page": "24"
+      }
+    },
+    {
+      "id": "Q060",
+      "type": "enumeration",
+      "topic": "risk",
+      "prompt": "List the FOUR common risk-response strategies.",
+      "items": [
+        {
+          "label": "Risk avoidance",
+          "aliases": [
+            "Risk avoidance",
+            "avoidance",
+            "avoid"
+          ]
+        },
+        {
+          "label": "Risk transfer",
+          "aliases": [
+            "Risk transfer",
+            "transfer",
+            "transference"
+          ]
+        },
+        {
+          "label": "Risk mitigation",
+          "aliases": [
+            "Risk mitigation",
+            "mitigation",
+            "mitigate"
+          ]
+        },
+        {
+          "label": "Risk acceptance",
+          "aliases": [
+            "Risk acceptance",
+            "acceptance",
+            "accept"
+          ]
+        }
+      ],
+      "explanation": "Avoidance removes, transfer shifts, mitigation reduces, and acceptance acknowledges the risk.",
+      "source": {
+        "doc": "lesson",
+        "page": "29–30"
+      }
+    },
+    {
+      "id": "Q061",
+      "type": "enumeration",
+      "topic": "risk",
+      "prompt": "List the SIX steps of the detailed risk-management process. Order does not matter.",
+      "items": [
+        {
+          "label": "Risk identification",
+          "aliases": [
+            "Risk identification",
+            "identification"
+          ]
+        },
+        {
+          "label": "Consolidation",
+          "aliases": [
+            "Consolidation",
+            "risk consolidation"
+          ]
+        },
+        {
+          "label": "Risk assessment",
+          "aliases": [
+            "Risk assessment",
+            "assessment"
+          ]
+        },
+        {
+          "label": "Risk triggers",
+          "aliases": [
+            "Risk triggers",
+            "triggers",
+            "risk trigger"
+          ]
+        },
+        {
+          "label": "Contingency planning",
+          "aliases": [
+            "Contingency planning",
+            "contingency plans"
+          ]
+        },
+        {
+          "label": "Risk assignment",
+          "aliases": [
+            "Risk assignment",
+            "assignment",
+            "assign risks"
+          ]
+        }
+      ],
+      "explanation": "These steps combine identification and assessment with warning signs, response plans, and assigned responsibilities.",
+      "source": {
+        "doc": "lesson",
+        "page": "32–33"
+      }
+    },
+    {
+      "id": "Q062",
+      "type": "enumeration",
+      "topic": "testing",
+      "prompt": "List the SIX key principles of security testing.",
+      "items": [
+        {
+          "label": "Confidentiality",
+          "aliases": [
+            "Confidentiality"
+          ]
+        },
+        {
+          "label": "Integrity",
+          "aliases": [
+            "Integrity"
+          ]
+        },
+        {
+          "label": "Authentication",
+          "aliases": [
+            "Authentication"
+          ]
+        },
+        {
+          "label": "Authorization",
+          "aliases": [
+            "Authorization",
+            "authorisation"
+          ]
+        },
+        {
+          "label": "Availability",
+          "aliases": [
+            "Availability"
+          ]
+        },
+        {
+          "label": "Non-repudiation",
+          "aliases": [
+            "Non-repudiation",
+            "nonrepudiation"
+          ]
+        }
+      ],
+      "explanation": "Authentication checks identity, authorization checks permissions, and non-repudiation supports evidence of actions.",
+      "source": {
+        "doc": "lesson",
+        "page": "36"
+      }
+    },
+    {
+      "id": "Q063",
+      "type": "enumeration",
+      "topic": "testing",
+      "prompt": "List ALL TEN security-testing techniques or weakness categories named in the lesson. Common acronyms are accepted.",
+      "items": [
+        {
+          "label": "Injection attacks",
+          "aliases": [
+            "Injection attacks",
+            "injection",
+            "SQL injection"
+          ]
+        },
+        {
+          "label": "Broken authentication and session management",
+          "aliases": [
+            "Broken authentication and session management",
+            "broken authentication",
+            "broken session management"
+          ]
+        },
+        {
+          "label": "Cross-site scripting",
+          "aliases": [
+            "Cross-site scripting",
+            "XSS"
+          ]
+        },
+        {
+          "label": "Insecure direct object references",
+          "aliases": [
+            "Insecure direct object references",
+            "IDOR",
+            "insecure direct object reference"
+          ]
+        },
+        {
+          "label": "Security misconfiguration",
+          "aliases": [
+            "Security misconfiguration",
+            "misconfiguration"
+          ]
+        },
+        {
+          "label": "Sensitive data exposure",
+          "aliases": [
+            "Sensitive data exposure",
+            "data exposure"
+          ]
+        },
+        {
+          "label": "Missing function level access control",
+          "aliases": [
+            "Missing function level access control",
+            "missing access control"
+          ]
+        },
+        {
+          "label": "Cross-site request forgery",
+          "aliases": [
+            "Cross-site request forgery",
+            "CSRF"
+          ]
+        },
+        {
+          "label": "Use of components with known vulnerabilities",
+          "aliases": [
+            "Use of components with known vulnerabilities",
+            "components with known vulnerabilities",
+            "known vulnerable components",
+            "vulnerable components"
+          ]
+        },
+        {
+          "label": "Unvalidated redirects and forwards",
+          "aliases": [
+            "Unvalidated redirects and forwards",
+            "unvalidated redirects",
+            "unvalidated forwards"
+          ]
+        }
+      ],
+      "explanation": "This covers the entire ten-item list on the security-testing techniques slide.",
+      "source": {
+        "doc": "lesson",
+        "page": "37"
+      }
+    },
+    {
+      "id": "Q064",
+      "type": "enumeration",
+      "topic": "offences",
+      "prompt": "List ALL THIRTEEN cybercrime examples in the module’s introductory list. Enter one example per box.",
+      "items": [
+        {
+          "label": "Unauthorized computer access",
+          "aliases": [
+            "Unauthorized computer access",
+            "unauthorized access",
+            "unauthorized access of the computers"
+          ]
+        },
+        {
+          "label": "Data diddling",
+          "aliases": [
+            "Data diddling"
+          ]
+        },
+        {
+          "label": "Virus or worm attacks",
+          "aliases": [
+            "Virus or worm attacks",
+            "virus worms attack",
+            "virus worms attacks",
+            "virus worm attack",
+            "virus attack",
+            "virus attacks",
+            "worm attacks"
+          ]
+        },
+        {
+          "label": "Theft of computer system",
+          "aliases": [
+            "Theft of computer system",
+            "computer system theft",
+            "theft of computer systems"
+          ]
+        },
+        {
+          "label": "Hacking",
+          "aliases": [
+            "Hacking"
+          ]
+        },
+        {
+          "label": "Denial of service attacks",
+          "aliases": [
+            "Denial of service attacks",
+            "denial of attacks",
+            "denial of service",
+            "DoS"
+          ]
+        },
+        {
+          "label": "Logic bombs",
+          "aliases": [
+            "Logic bombs",
+            "logic bomb"
+          ]
+        },
+        {
+          "label": "Trojan attacks",
+          "aliases": [
+            "Trojan attacks",
+            "Trojan attack"
+          ]
+        },
+        {
+          "label": "Internet time theft",
+          "aliases": [
+            "Internet time theft"
+          ]
+        },
+        {
+          "label": "Web jacking",
+          "aliases": [
+            "Web jacking",
+            "webjacking"
+          ]
+        },
+        {
+          "label": "Email bombing",
+          "aliases": [
+            "Email bombing",
+            "e-mail bombing"
+          ]
+        },
+        {
+          "label": "Salami attacks",
+          "aliases": [
+            "Salami attacks",
+            "salami attack"
+          ]
+        },
+        {
+          "label": "Physically damaging computer system",
+          "aliases": [
+            "Physically damaging computer system",
+            "physically damaging a computer system",
+            "physical damage",
+            "physical damage to computer systems"
+          ]
+        }
+      ],
+      "explanation": "The handout’s “Denial of attacks” is written as denial-of-service attacks for clarity. Each distinct example can earn one item match, but this full question is worth one point.",
+      "source": {
+        "doc": "offences",
+        "page": "1"
+      }
+    },
+    {
+      "id": "Q065",
+      "type": "enumeration",
+      "topic": "offences",
+      "prompt": "List the SIX knowing or intentional acts under Section 65: three direct acts and three acts of causing someone else to do them.",
+      "items": [
+        {
+          "label": "Concealing source code",
+          "aliases": [
+            "Concealing source code",
+            "concealing",
+            "conceal"
+          ]
+        },
+        {
+          "label": "Destroying source code",
+          "aliases": [
+            "Destroying source code",
+            "destroying",
+            "destroy"
+          ]
+        },
+        {
+          "label": "Altering source code",
+          "aliases": [
+            "Altering source code",
+            "altering",
+            "alter"
+          ]
+        },
+        {
+          "label": "Causing another to conceal source code",
+          "aliases": [
+            "Causing another to conceal source code",
+            "causing another to conceal",
+            "causing others to conceal"
+          ]
+        },
+        {
+          "label": "Causing another to destroy source code",
+          "aliases": [
+            "Causing another to destroy source code",
+            "causing another to destroy",
+            "causing others to destroy"
+          ]
+        },
+        {
+          "label": "Causing another to alter source code",
+          "aliases": [
+            "Causing another to alter source code",
+            "causing another to alter",
+            "causing others to alter"
+          ]
+        }
+      ],
+      "explanation": "The source code must be legally required to be maintained. Its definition includes program listings, commands, design/layout, and program analysis; the stated aim is protection of intellectual property beyond copyright.",
+      "source": {
+        "doc": "offences",
+        "page": "2"
+      }
+    },
+    {
+      "id": "Q066",
+      "type": "enumeration",
+      "topic": "offences",
+      "prompt": "Apart from the punishment-length limit, list the FOUR grounds that the module says prevent compounding.",
+      "items": [
+        {
+          "label": "Previous conviction leading to enhanced or different punishment",
+          "aliases": [
+            "Previous conviction leading to enhanced or different punishment",
+            "previous conviction",
+            "repeat offender",
+            "enhanced punishment"
+          ]
+        },
+        {
+          "label": "Affects the country’s socioeconomic conditions",
+          "aliases": [
+            "Affects the country’s socioeconomic conditions",
+            "socioeconomic conditions",
+            "socio economic conditions",
+            "affects socioeconomic conditions"
+          ]
+        },
+        {
+          "label": "Committed against a child below 18",
+          "aliases": [
+            "Committed against a child below 18",
+            "child below 18",
+            "child under 18",
+            "against a child"
+          ]
+        },
+        {
+          "label": "Committed against a woman",
+          "aliases": [
+            "Committed against a woman",
+            "against a woman",
+            "woman",
+            "women"
+          ]
+        }
+      ],
+      "explanation": "These four exclusions apply in addition to the rule excluding life imprisonment or a term exceeding three years.",
+      "source": {
+        "doc": "offences",
+        "page": "5"
+      }
+    },
+    {
+      "id": "Q067",
+      "type": "matching",
+      "topic": "network",
+      "prompt": "Match each device category with its defining function.",
+      "pairs": [
+        {
+          "left": "Active devices",
+          "right": "Block unwanted or surplus traffic"
+        },
+        {
+          "left": "Passive devices",
+          "right": "Identify and report unwanted traffic"
+        },
+        {
+          "left": "Preventative devices",
+          "right": "Scan for potential security weaknesses"
+        },
+        {
+          "left": "Unified threat management",
+          "right": "Combine several security functions in one device"
+        }
+      ],
+      "explanation": "The category depends on the role performed.",
+      "source": {
+        "doc": "lesson",
+        "page": "4–5"
+      }
+    },
+    {
+      "id": "Q068",
+      "type": "matching",
+      "topic": "network",
+      "prompt": "Match each security tool with its main role.",
+      "pairs": [
+        {
+          "left": "Firewall",
+          "right": "Regulate traffic between networks"
+        },
+        {
+          "left": "Antivirus",
+          "right": "Detect and remove malicious software"
+        },
+        {
+          "left": "Content filter",
+          "right": "Screen web or email content against policies"
+        },
+        {
+          "left": "Intrusion detection system",
+          "right": "Monitor and report suspicious network activity"
+        }
+      ],
+      "explanation": "The lesson’s IDS discussion also includes prevention functions; its passive classification emphasizes detection and reporting.",
+      "source": {
+        "doc": "lesson",
+        "page": "6–11"
+      }
+    },
+    {
+      "id": "Q069",
+      "type": "matching",
+      "topic": "signatures",
+      "prompt": "Match each example with its authentication-factor category.",
+      "pairs": [
+        {
+          "left": "A memorized PIN",
+          "right": "Knowledge: something you know"
+        },
+        {
+          "left": "A fingerprint",
+          "right": "Physical feature: something you are"
+        },
+        {
+          "left": "A magnetic card",
+          "right": "Possession: something you have"
+        }
+      ],
+      "explanation": "PINs rely on knowledge, fingerprints on a physical feature, and cards on possession.",
+      "source": {
+        "doc": "lesson",
+        "page": "15–17"
+      }
+    },
+    {
+      "id": "Q070",
+      "type": "matching",
+      "topic": "risk",
+      "prompt": "Match each project problem with its risk category.",
+      "pairs": [
+        {
+          "left": "Equipment may arrive late",
+          "right": "Supplier risk"
+        },
+        {
+          "left": "There are too few skilled staff",
+          "right": "Resource risk"
+        },
+        {
+          "left": "Costs may exceed the allocation",
+          "right": "Budget risk"
+        }
+      ],
+      "explanation": "These are the three project-risk categories described on the slide.",
+      "source": {
+        "doc": "lesson",
+        "page": "26"
+      }
+    },
+    {
+      "id": "Q071",
+      "type": "matching",
+      "topic": "risk",
+      "prompt": "Match each action with its risk-response strategy.",
+      "pairs": [
+        {
+          "left": "Cancel the risky activity",
+          "right": "Risk avoidance"
+        },
+        {
+          "left": "Buy insurance",
+          "right": "Risk transfer"
+        },
+        {
+          "left": "Add safeguards to lower probability or impact",
+          "right": "Risk mitigation"
+        },
+        {
+          "left": "Acknowledge the risk and proceed",
+          "right": "Risk acceptance"
+        }
+      ],
+      "explanation": "The four approaches remove, shift, reduce, or accept the risk.",
+      "source": {
+        "doc": "lesson",
+        "page": "29–30"
+      }
+    },
+    {
+      "id": "Q072",
+      "type": "matching",
+      "topic": "offences",
+      "prompt": "Match each section with its title in the supplied historical table.",
+      "pairs": [
+        {
+          "left": "65",
+          "right": "Tampering with computer source code"
+        },
+        {
+          "left": "66",
+          "right": "Computer-related offences"
+        },
+        {
+          "left": "66-A",
+          "right": "Offensive messages: historical handout entry"
+        },
+        {
+          "left": "66-B",
+          "right": "Dishonestly receiving stolen computer resources"
+        },
+        {
+          "left": "66-C",
+          "right": "Identity theft"
+        },
+        {
+          "left": "66-D",
+          "right": "Cheating by personation using computer resources"
+        },
+        {
+          "left": "66-E",
+          "right": "Violation of privacy"
+        },
+        {
+          "left": "66-F",
+          "right": "Cyber terrorism"
+        }
+      ],
+      "explanation": "The handout lists up to three years for 65, 66, and 66-A through 66-E, and possible life for 66-F. The 66-A entry reviews the historical handout, not current enforceability. Section 65 bailability is inconsistent in the handout and is not graded.",
+      "source": {
+        "doc": "offences",
+        "page": "3"
+      }
+    },
+    {
+      "id": "Q073",
+      "type": "matching",
+      "topic": "offences",
+      "prompt": "Match each section with the duty or subject it describes.",
+      "pairs": [
+        {
+          "left": "67-C",
+          "right": "Preservation and retention of information"
+        },
+        {
+          "left": "68",
+          "right": "Compliance with Controller directions"
+        },
+        {
+          "left": "69",
+          "right": "Assistance with interception, monitoring, or decryption"
+        },
+        {
+          "left": "69-A",
+          "right": "Blocking public access to information"
+        },
+        {
+          "left": "69-B",
+          "right": "Monitoring or collecting traffic data for cybersecurity"
+        },
+        {
+          "left": "70-B",
+          "right": "Compliance with national incident-response agency directions"
+        }
+      ],
+      "explanation": "The module lists maximum terms of 3, 2, 7, 7, 3, and 1 years respectively, with fines. It lists 68 and 70-B as bailable/non-cognizable; 69 and 69-A as non-bailable/cognizable; 67-C and 69-B as bailable/cognizable.",
+      "source": {
+        "doc": "offences",
+        "page": "3–4"
+      }
+    },
+    {
+      "id": "Q074",
+      "type": "matching",
+      "topic": "offences",
+      "prompt": "Match each section with its offence title in the module.",
+      "pairs": [
+        {
+          "left": "71",
+          "right": "Misrepresentation to the Controller or Certifying Authority"
+        },
+        {
+          "left": "72",
+          "right": "Breach of confidentiality and privacy"
+        },
+        {
+          "left": "72-A",
+          "right": "Disclosure in breach of a lawful contract"
+        },
+        {
+          "left": "73",
+          "right": "Publishing a signature certificate false in particulars"
+        },
+        {
+          "left": "74",
+          "right": "Publication for a fraudulent purpose"
+        }
+      ],
+      "explanation": "The module lists up to two years for 71, 72, 73, and 74, and up to three for 72-A, with fines. It lists the two-year entries as bailable/non-cognizable and 72-A as bailable/cognizable.",
+      "source": {
+        "doc": "offences",
+        "page": "4–5"
+      }
+    },
+    {
+      "id": "Q075",
+      "type": "situational",
+      "topic": "network",
+      "prompt": "A school wants a rule-based barrier between its internal network and the internet. Which tool best fits?",
+      "options": [
+        "Firewall",
+        "Digital pen",
+        "Risk register",
+        "Signature certificate"
+      ],
+      "answer": 0,
+      "explanation": "A firewall regulates network traffic and separates a trusted network from an external network.",
+      "source": {
+        "doc": "lesson",
+        "page": "6"
+      }
+    },
+    {
+      "id": "Q076",
+      "type": "situational",
+      "topic": "network",
+      "prompt": "Before launch, an administrator scans a network for vulnerabilities. Under the lesson’s classification, which category is being used?",
+      "options": [
+        "Preventative devices",
+        "Passive devices only",
+        "Electronic signatures",
+        "Risk acceptance"
+      ],
+      "answer": 0,
+      "explanation": "Vulnerability-assessment and penetration-testing appliances are listed as preventative devices.",
+      "source": {
+        "doc": "lesson",
+        "page": "5"
+      }
+    },
+    {
+      "id": "Q077",
+      "type": "situational",
+      "topic": "signatures",
+      "prompt": "A software publisher wants recipients to verify a release’s origin and have evidence of who sent it. Which technique fits?",
+      "options": [
+        "Digital signature",
+        "Web caching",
+        "Budget assessment",
+        "Email bombing"
+      ],
+      "answer": 0,
+      "explanation": "Software distribution is a named use for digital signatures. The technique supports verification of origin and non-repudiation.",
+      "source": {
+        "doc": "lesson",
+        "page": "12"
+      }
+    },
+    {
+      "id": "Q078",
+      "type": "situational",
+      "topic": "signatures",
+      "prompt": "A form allows a typed name or a click on “I Agree.” Which lesson concept includes these ways of indicating origin or acceptance?",
+      "options": [
+        "Electronic-signature or authentication methods",
+        "Only hardware firewalls",
+        "Only source-code tampering",
+        "Only physical network damage"
+      ],
+      "answer": 0,
+      "explanation": "Typed names and clickable acceptance are discussed as electronic communication/signature methods. That does not make every such method a PKI digital signature.",
+      "source": {
+        "doc": "lesson",
+        "page": "16–17"
+      }
+    },
+    {
+      "id": "Q079",
+      "type": "situational",
+      "topic": "risk",
+      "prompt": "A project has equipment and funding but not enough qualified programmers. Which category should the manager record?",
+      "options": [
+        "Resource risk",
+        "Supplier risk",
+        "Signature risk",
+        "Content-filtering risk"
+      ],
+      "answer": 0,
+      "explanation": "Resource risk includes insufficient staff or a lack of skilled people.",
+      "source": {
+        "doc": "lesson",
+        "page": "26"
+      }
+    },
+    {
+      "id": "Q080",
+      "type": "situational",
+      "topic": "risk",
+      "prompt": "A team estimates that final costs may exceed its approved allocation. Which category applies?",
+      "options": [
+        "Budget risk",
+        "Supplier risk",
+        "Authentication risk",
+        "Passive-device risk"
+      ],
+      "answer": 0,
+      "explanation": "Budget risk concerns costs exceeding the allocated budget.",
+      "source": {
+        "doc": "lesson",
+        "page": "26"
+      }
+    },
+    {
+      "id": "Q081",
+      "type": "situational",
+      "topic": "risk",
+      "prompt": "A manager removes a dangerous activity entirely so its specific risk no longer exists. Which strategy is this?",
+      "options": [
+        "Risk avoidance",
+        "Risk mitigation",
+        "Risk acceptance",
+        "Risk transfer"
+      ],
+      "answer": 0,
+      "explanation": "Avoidance removes the risky activity. Mitigation reduces likelihood or impact while retaining it.",
+      "source": {
+        "doc": "lesson",
+        "page": "29"
+      }
+    },
+    {
+      "id": "Q082",
+      "type": "situational",
+      "topic": "risk",
+      "prompt": "A team keeps an activity but adds safeguards to make failure less likely and less damaging. Which strategy is this?",
+      "options": [
+        "Risk mitigation",
+        "Risk avoidance",
+        "Risk acceptance",
+        "Consolidation"
+      ],
+      "answer": 0,
+      "explanation": "Mitigation reduces probability or impact without necessarily eliminating the activity.",
+      "source": {
+        "doc": "lesson",
+        "page": "30"
+      }
+    },
+    {
+      "id": "Q083",
+      "type": "situational",
+      "topic": "risk",
+      "prompt": "Three team members submit the same supplier-delay risk. Their manager combines these into one entry. Which process step is this?",
+      "options": [
+        "Consolidation",
+        "Risk transfer",
+        "Authentication",
+        "Risk acceptance"
+      ],
+      "answer": 0,
+      "explanation": "Consolidation removes duplicate risks and creates a comprehensive list.",
+      "source": {
+        "doc": "lesson",
+        "page": "32"
+      }
+    },
+    {
+      "id": "Q084",
+      "type": "situational",
+      "topic": "testing",
+      "prompt": "Authorized students cannot access a learning system during scheduled use. Which principle is most directly affected?",
+      "options": [
+        "Availability",
+        "Non-repudiation",
+        "Confidentiality only",
+        "Signature possession"
+      ],
+      "answer": 0,
+      "explanation": "Availability concerns access to information and systems when authorized users need them.",
+      "source": {
+        "doc": "lesson",
+        "page": "36"
+      }
+    },
+    {
+      "id": "Q085",
+      "type": "situational",
+      "topic": "testing",
+      "prompt": "A system first verifies who a user is, then checks whether that user may delete a record. Name the checks in that order.",
+      "options": [
+        "Authentication, then authorization",
+        "Authorization, then authentication",
+        "Availability, then consolidation",
+        "Confidentiality, then risk transfer"
+      ],
+      "answer": 0,
+      "explanation": "Identity verification is authentication. Permission checking is authorization.",
+      "source": {
+        "doc": "lesson",
+        "page": "36"
+      }
+    },
+    {
+      "id": "Q086",
+      "type": "situational",
+      "topic": "testing",
+      "prompt": "During an authorized test, a team checks whether untrusted input can be interpreted as commands or queries. Which listed category best fits?",
+      "options": [
+        "Injection attacks",
+        "Risk assignment",
+        "Web caching",
+        "Non-repudiation"
+      ],
+      "answer": 0,
+      "explanation": "Injection testing examines whether input can alter commands or queries. Injection attacks appear in the lesson’s technique list.",
+      "source": {
+        "doc": "lesson",
+        "page": "37"
+      }
+    },
+    {
+      "id": "Q087",
+      "type": "situational",
+      "topic": "offences",
+      "prompt": "An employee knowingly destroys program source code that the law requires the company to keep. Which module section is most directly relevant?",
+      "options": [
+        "65",
+        "66-B",
+        "69-A",
+        "77-A"
+      ],
+      "answer": 0,
+      "explanation": "Section 65 requires knowing or intentional conduct involving legally required source code. The module states up to three years, up to two lakh rupees, or both.",
+      "source": {
+        "doc": "offences",
+        "page": "2"
+      }
+    },
+    {
+      "id": "Q088",
+      "type": "situational",
+      "topic": "offences",
+      "prompt": "A buyer dishonestly receives a communication device known to be stolen. Which table entry is the closest match?",
+      "options": [
+        "66-B: receiving stolen computer resources or devices",
+        "66-C: identity theft",
+        "67-C: information retention",
+        "71: misrepresentation to a certifying authority"
+      ],
+      "answer": 0,
+      "explanation": "The distinguishing conduct is receiving a stolen resource or device, listed under 66-B.",
+      "source": {
+        "doc": "offences",
+        "page": "3"
+      }
+    },
+    {
+      "id": "Q089",
+      "type": "situational",
+      "topic": "offences",
+      "prompt": "Someone uses another person’s password as their own identity credential. Which offence category is the closest match?",
+      "options": [
+        "66-C: identity theft",
+        "66-B: receiving a stolen device",
+        "69-B: traffic-data monitoring",
+        "74: fraudulent publication"
+      ],
+      "answer": 0,
+      "explanation": "Misusing another person’s identity credential illustrates the identity-theft category.",
+      "source": {
+        "doc": "offences",
+        "page": "3"
+      }
+    },
+    {
+      "id": "Q090",
+      "type": "situational",
+      "topic": "offences",
+      "prompt": "A scammer pretends online to be a trusted support agent and tricks a victim into sending money. Which entry best fits?",
+      "options": [
+        "66-D: cheating by personation using a computer resource",
+        "68: Controller directions",
+        "70-B: incident-response agency directions",
+        "67-C: information retention"
+      ],
+      "answer": 0,
+      "explanation": "The scenario combines a false assumed identity with deception, illustrating cheating by personation.",
+      "source": {
+        "doc": "offences",
+        "page": "3"
+      }
+    },
+    {
+      "id": "Q091",
+      "type": "situational",
+      "topic": "offences",
+      "prompt": "A case in a module-based exercise uses the exact table label “Violation of Privacy.” Which section should you associate with that label?",
+      "options": [
+        "66-E",
+        "66-F",
+        "67-C",
+        "69-B"
+      ],
+      "answer": 0,
+      "explanation": "The exact label is paired with 66-E. Section 72 separately uses “Breach of Confidentiality and privacy.”",
+      "source": {
+        "doc": "offences",
+        "page": "3"
+      }
+    },
+    {
+      "id": "Q092",
+      "type": "situational",
+      "topic": "offences",
+      "prompt": "A module-based exercise classifies a case as cyber terrorism. Which listed punishment and classification match it?",
+      "options": [
+        "Possible life imprisonment; non-bailable and cognizable",
+        "At most one year; non-cognizable",
+        "At most two years; a civil warning only",
+        "No punishment is listed"
+      ],
+      "answer": 0,
+      "explanation": "The 66-F row lists possible life imprisonment, non-bailable/cognizable, triable by the Court of Sessions.",
+      "source": {
+        "doc": "offences",
+        "page": "3"
+      }
+    },
+    {
+      "id": "Q093",
+      "type": "situational",
+      "topic": "offences",
+      "prompt": "An intermediary intentionally ignores directions to preserve and retain information. Which module section addresses that duty?",
+      "options": [
+        "67-C",
+        "67-A",
+        "66-D",
+        "73"
+      ],
+      "answer": 0,
+      "explanation": "The 67-C row continues onto page 4 and concerns preservation and retention of information.",
+      "source": {
+        "doc": "offences",
+        "page": "3–4"
+      }
+    },
+    {
+      "id": "Q094",
+      "type": "situational",
+      "topic": "offences",
+      "prompt": "An entity fails to follow directions given by the Controller. Which section and maximum prison term does the module list?",
+      "options": [
+        "68; up to two years",
+        "70; up to ten years",
+        "66-F; life imprisonment",
+        "70-B; up to one year"
+      ],
+      "answer": 0,
+      "explanation": "Section 68 is listed with up to two years and/or a fine, and classified as bailable and non-cognizable.",
+      "source": {
+        "doc": "offences",
+        "page": "4"
+      }
+    },
+    {
+      "id": "Q095",
+      "type": "situational",
+      "topic": "offences",
+      "prompt": "Required assistance with interception, monitoring, or decryption is not provided to the specified agency. Which module section is most relevant?",
+      "options": [
+        "69",
+        "69-A",
+        "69-B",
+        "71"
+      ],
+      "answer": 0,
+      "explanation": "Section 69 addresses assistance with interception, monitoring, or decryption. The module lists up to seven years and a fine.",
+      "source": {
+        "doc": "offences",
+        "page": "4"
+      }
+    },
+    {
+      "id": "Q096",
+      "type": "situational",
+      "topic": "offences",
+      "prompt": "An intermediary does not comply with a direction to block public access to information. Which entry fits?",
+      "options": [
+        "69-A",
+        "69-B",
+        "67-C",
+        "72-A"
+      ],
+      "answer": 0,
+      "explanation": "The module distinguishes 69-A blocking directions from 69-B traffic-data monitoring, and lists up to seven years and a fine for 69-A.",
+      "source": {
+        "doc": "offences",
+        "page": "4"
+      }
+    },
+    {
+      "id": "Q097",
+      "type": "situational",
+      "topic": "offences",
+      "prompt": "An intermediary knowingly violates provisions concerning collection of traffic data for cybersecurity. Which entry fits?",
+      "options": [
+        "69-B",
+        "69-A",
+        "66-B",
+        "74"
+      ],
+      "answer": 0,
+      "explanation": "Section 69-B is the traffic-data monitoring/collection entry. The module lists up to three years and a fine.",
+      "source": {
+        "doc": "offences",
+        "page": "4"
+      }
+    },
+    {
+      "id": "Q098",
+      "type": "situational",
+      "topic": "offences",
+      "prompt": "A provider fails to supply requested information or follow directions from the Indian Computer Emergency Response Team. Which section is listed?",
+      "options": [
+        "70-B",
+        "70",
+        "71",
+        "67-A"
+      ],
+      "answer": 0,
+      "explanation": "The 70-B entry concerns the national incident-response agency. The module lists up to one year and/or a fine, bailable and non-cognizable.",
+      "source": {
+        "doc": "offences",
+        "page": "4"
+      }
+    },
+    {
+      "id": "Q099",
+      "type": "situational",
+      "topic": "offences",
+      "prompt": "Someone says the module only mentions conduct inside India and never mentions investigation or confiscation. Which correction matches its introductory list?",
+      "options": [
+        "It also lists outside-India application, confiscation, other punishments, and investigation powers.",
+        "It only discusses antivirus installation.",
+        "It excludes all investigation powers.",
+        "It says confiscation always replaces every other punishment."
+      ],
+      "answer": 0,
+      "explanation": "The list includes outside-India application, confiscation, penalties/confiscation not interfering with other punishments, and investigation powers. This reviews the list, not actual jurisdiction in a legal case.",
+      "source": {
+        "doc": "offences",
+        "page": "1"
+      }
+    },
+    {
+      "id": "Q100",
+      "type": "situational",
+      "topic": "offences",
+      "prompt": "An offence in a module-based exercise carries possible life imprisonment. The accused asks to compound it. What does the module’s punishment rule say?",
+      "options": [
+        "It is excluded from compounding under that rule.",
+        "It is automatically eligible because it is online.",
+        "It must always be compounded.",
+        "Only the username determines eligibility."
+      ],
+      "answer": 0,
+      "explanation": "The module excludes life imprisonment or a term exceeding three years, along with exclusions involving previous convictions, socioeconomic conditions, children, and women.",
+      "source": {
+        "doc": "offences",
+        "page": "5"
+      }
+    }
+  ],
+  "sources": {
+    "lesson": {
+      "title": "_IT401 MIDTERM L1.pdf",
+      "short": "Lesson 1",
+      "pages": 41
+    },
+    "offences": {
+      "title": "IT 401 - MIDTERM MODULE - OFFENCES.pdf",
+      "short": "Offences module",
+      "pages": 6
+    }
+  }
+}

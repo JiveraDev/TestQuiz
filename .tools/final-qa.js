@@ -1,0 +1,42 @@
+const { chromium }=require('C:/Users/loren/AppData/Local/npm-cache/_npx/423231821c231c73/node_modules/playwright');
+const assert=require('node:assert/strict');
+(async()=>{
+  const browser=await chromium.launch({channel:'msedge',headless:true});
+  try {
+    const page=await browser.newPage({viewport:{width:390,height:844}});
+    const errors=[];
+    const requests=[];
+    page.on('pageerror',e=>errors.push(e.message));
+    page.on('request',request=>requests.push(request.url()));
+    await page.emulateMedia({reducedMotion:'reduce'});
+    await page.goto('file:///C:/Users/loren/PhpstormProjects/untitled/quiz-reviewer/IT401-Reviewer.html');
+    await page.locator('#username').fill('Offline Reviewer');
+    await page.locator('#login-form button').click();
+    await page.locator('select[name="type"]').selectOption('enumeration');
+    await page.locator('#start-button').click();
+    await page.locator('[data-item="0"]').fill('an incorrect item');
+    await page.locator('[data-action="skip"]').click();
+    await page.reload();
+    await page.locator('[data-action="resume"]').click();
+    assert.match(await page.locator('.answer-feedback').innerText(),/One to come back to/);
+    await page.locator('[data-action="next"]').click();
+    assert.equal(await page.locator('.answer-feedback').count(),0);
+    const key='recall-it401-v1-active-offline%20reviewer';
+    const state=await page.evaluate(key=>JSON.parse(localStorage.getItem(key)),key);
+    assert.equal(state.position,1);
+    await page.locator('[data-action="end"]').click();
+    await page.locator('#accept-confirm').click();
+    await page.locator('.nav-item[data-go="history"]').click();
+    const downloadPromise=page.waitForEvent('download');
+    await page.locator('[data-action="export"]').click();
+    const download=await downloadPromise;
+    assert.equal(download.suggestedFilename(),'it401-session-scores.csv');
+    await page.evaluate(()=>localStorage.setItem('recall-it401-v1-history','{"unexpected":"shape"}'));
+    await page.reload();
+    await page.locator('#start-button').waitFor();
+    assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),true);
+    assert.equal(requests.some(url=>/^https?:/.test(url)),false);
+    assert.deepEqual(errors,[]);
+    console.log('PASS: portable file works without network requests, skipped enumeration survives refresh, next question resets feedback, CSV download works, malformed history does not crash, and mobile has no overflow');
+  } finally { await browser.close(); }
+})().catch(e=>{console.error(e);process.exitCode=1});

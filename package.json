@@ -5,6 +5,9 @@
   "main": "quiz-reviewer/index.js",
   "scripts": {
     "start": "node quiz-reviewer/index.js",
+    "build": "node quiz-reviewer/scripts/build-question-bank.js && node quiz-reviewer/scripts/build-standalone.js",
+    "build:questions": "node quiz-reviewer/scripts/build-question-bank.js",
+    "build:standalone": "node quiz-reviewer/scripts/build-question-bank.js && node quiz-reviewer/scripts/build-standalone.js",
     "test": "node --test quiz-reviewer/tests/*.test.js"
   },
   "keywords": [],
